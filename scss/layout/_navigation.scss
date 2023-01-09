@@ -1,0 +1,21 @@
+.header__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h1{
+    font-size: $font_size_24;
+    line-height: $line_height_24;
+    font-weight: 800;
+  }
+  .dark_mode{
+    display: flex;
+    gap: 10.5px;
+    user-select: none;
+    cursor: pointer;
+    p{
+      font-size: $font_size_16;
+      line-height: $line_height_16;
+      font-weight: 600;
+    }
+  }
+}

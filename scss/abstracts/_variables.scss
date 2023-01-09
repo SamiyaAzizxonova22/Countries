@@ -1,0 +1,46 @@
+:root{
+  // color
+--site_color: #111517;
+--input_color: #848484;
+--color_white: #fff;
+--color_dark: #2B3844;
+
+
+// background color
+
+--site_bg_color: rgb(249, 249, 249);
+--header_bg_color: #fff;
+}
+
+
+
+.dark{
+  --site_color: var(--color_white);
+  --header_bg_color: var(--color_dark);
+  --site_bg_color: #202C36;
+  svg path{
+    fill: var(--site_color);
+  }
+}
+
+// font size
+
+$font_size_24: 2.4rem;
+$font_size_16: 1.6rem;
+$font_size_14: 1.4rem;
+$font_size_18: 1.8rem;
+
+// line height
+
+$line_height_24: 1.38;
+$line_height_16: $font_size_24;
+$line_height_14: 1.42;
+$line_height_18: 1.44;
+
+// container
+
+$container: 1440px;
+
+// font family
+
+$site_font_family: "Nunito Sans";
