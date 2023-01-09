@@ -39,7 +39,7 @@ function update(data){
       countriesContainerList.innerHTML +=
       `<li class="countries__container_item">
       <a href="" class="countries__container_nation">
-      <img src="${country.flag.svg}" alt="">
+      <img src="${country.flags.svg}" alt="Bu yerda davlatning bayrog'i rasmi bor">
         <div>
           <h3 class="nation_name">${country.name.common}</h3>
           <small><b>Population:</b> ${country.population}</small>
